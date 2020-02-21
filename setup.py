@@ -158,7 +158,7 @@ from setuptools.command.test import test as TestCommand
 # print("setup.py: platform.system() => %r" % SYSTEM)
 # print("setup.py: platform.architecture() => %r" % (platform.architecture(),))
 # if SYSTEM == 'Linux':
-#     print("setup.py: platform.linux_distribution() => %r" % (platform.linux_distribution(),))
+#     print("setup.py: platform.system() => %r" % (platform.system(),))
 # if SYSTEM != 'Windows':
 #     print("setup.py: platform.libc_ver() => %r" % (platform.libc_ver(),))
 
@@ -480,6 +480,8 @@ setup(
       "Programming Language :: Python :: 3.5",
       "Programming Language :: Python :: 3.6",
       "Programming Language :: Python :: 3.7",
+      "Programming Language :: Python :: 3.8",
+
       "Programming Language :: Python :: Implementation :: CPython",
       "Topic :: Database",
       "Topic :: Database :: Database Engines/Servers",
